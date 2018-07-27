@@ -1,0 +1,17 @@
+.box{
+	height: 200px;
+	width: 30%;
+	background-color: yellow;
+	-webkit-animation-name: Hello;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count:10s;
+	animation-delay: 10s;
+}
+@-webkit-keyframes Hello{
+	from{
+		background-color: yellow;
+	}
+	to{
+		background-color: red;
+	}
+}
